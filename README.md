@@ -11,5 +11,13 @@ gözden geçirilmeli; köşeli parantezli alanlar doldurulmalı.
 | `hesap-silme.md` | /hesap-silme | Google Play (hesap silme için web yolu) |
 | `destek.md` | /destek | App Store (destek adresi) |
 
-Yayınlama: herkese açık ayrı bir GitHub deposuna (ör. `yanki-site`) bu dosyaları koyup Ayarlar → Pages'ten
-yayını aç. Adresler `mobile/src/constants/links.ts` ve `store/listing-tr.md` içinde güncellenir.
+Yayın: herkese açık `OptimalYazilim/yanki-site` deposu, GitHub Pages ile
+https://optimalyazilim.github.io/yanki-site/ adresinde. Kaynak bu klasördür; değişiklikten sonra ana depoda kaydedip
+şununla gönderilir:
+
+```powershell
+git subtree push --prefix=site site main
+```
+
+(`site` uzak deposu bir kez eklenir: `git remote add site https://github.com/OptimalYazilim/yanki-site.git`.)
+Adresler uygulamada `mobile/src/constants/links.ts` içinde.

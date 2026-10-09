@@ -1,0 +1,9 @@
+# GitHub Pages (Jekyll) ayarları. Bu klasör ana depodan yanki-site deposuna gönderilir:
+#   git subtree push --prefix=site site main
+title: Yankı
+description: Gününü sesli ya da yazarak anlatabileceğin sakin bir yol arkadaşı.
+lang: tr
+theme: jekyll-theme-primer
+# Depo içi not; sitede yayınlanmaz.
+exclude:
+  - README.md
