@@ -21,4 +21,4 @@ bayrak simgesine dokun ve bildir. Her bildirimi inceliyoruz.
 ## Acil bir durumdaysan
 
 Yankı bir acil durum hizmeti değildir. Kendine ya da başkasına zarar verme tehlikesi varsa **112**'yi ara.
-Uygulamadaki **Destek** butonu seni ücretsiz destek hatlarına yönlendirir.
+Uygulamada **Profil → Destek hatları** seni ücretsiz destek hatlarına yönlendirir.
